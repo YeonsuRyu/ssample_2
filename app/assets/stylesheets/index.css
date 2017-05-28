@@ -1,0 +1,40 @@
+.banner img {
+	width: 100%;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+.filter-wrapper {
+	margin-top: 48px;
+	margin-bottom: 36px;
+}
+
+.filter-wrapper a {
+	color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.filter-wrapper a:hover, a:focus {
+	background-color: black;
+	color: white;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.filter-wrapper li {
+    display: inline-block
+}
